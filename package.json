@@ -1,0 +1,14 @@
+{
+  "name": "snapshot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "vote": "node index.js"
+  },
+  "dependencies": {
+    "@ethersproject/wallet": "^5.7.0",
+    "@snapshot-labs/snapshot.js": "^0.4.27",
+    "dotenv": "^16.0.2",
+    "yargs": "^17.5.1"
+  }
+}
