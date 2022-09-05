@@ -1,11 +1,14 @@
-## Cast vote
+## Snapshot cli
 
-This is a simple script to cast a vote on a Snapshot proposal from a command line. This script requires [Node.js](https://nodejs.org/en/download/) and NPM.
+This is a simple script to cast a vote on a Snapshot proposal with a terminal. This script requires [Node.js](https://nodejs.org/en/download/) and NPM.
 
 ### Install dependencies
 ```sh
 npm i
 ```
+
+### Setup wallet
+Add a wallet private key in the `.env` file. This private key will be used to sign a message to cast a vote. 
 
 ### Cast a vote
 
